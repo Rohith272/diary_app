@@ -3,6 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 
 import 'signup.dart';
+import 'home.dart';
 
 final FirebaseAuth _auth = FirebaseAuth.instance;
 
@@ -35,7 +36,8 @@ class MyApp extends StatelessWidget {
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
       debugShowCheckedModeBanner: false,
       routes: <String, WidgetBuilder>{
-        '/signup': (BuildContext context) => new SignupPage()
+        '/signup': (BuildContext context) => new SignupPage(),
+        '/home' : (BuildContext context) => new Homepage()
       },
     );
   }
@@ -73,6 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
       setState(() {
         _success = 2;
         _userEmail = _userEmail;
+        Navigator.of(context).pushNamed('/home');
       });
     }else {
       setState(() {
