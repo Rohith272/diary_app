@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
   void _signIn() async{
-    final User user = (await _auth.signInWithEmailAndPassword(email: _emailController.text, password: _passwordController.text)).user;
+    final User? user = (await _auth.signInWithEmailAndPassword(email: _emailController.text, password: _passwordController.text)).user;
     if(user != null){
       setState(() {
         _success = 2;
