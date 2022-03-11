@@ -28,3 +28,6 @@ First open the project in android studio and select the emulator with suitable a
 ## How to run
 Select the emulator and make sure the internet is connected and then press the run button. Now you can use the app using username and password.
 
+## Link to apk file
+
+https://drive.google.com/drive/folders/1sLragncIbkcxfKwtkf7y6eq9g28Hz2ja?usp=sharing
