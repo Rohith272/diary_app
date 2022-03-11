@@ -1,6 +1,6 @@
 # Dairy App
 
-This is a new flutter project done by us as a part of tinkerhub Co-coder event.
+This is a new flutter project done by us as a part of tinkerhub Co-coder event. This is an app where you can enter your personal dairy for each day.
 
 ## Team members
 1. Rohith K [https://github.com/Rohith272]
